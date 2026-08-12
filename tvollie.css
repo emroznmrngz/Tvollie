@@ -1,0 +1,57 @@
+:root{--h3-color: white; --h3-font-size: 20px}
+*{box-sizing: border-box; margin: 0; padding: 0;}
+.build .floor p{display: flex; justify-content: center; border: 1px solid violet; background-color: violet;
+margin: 0; margin-top: -10px; line-height: 2; font-size: 20px;}
+
+.floor button{height: 500px; margin-top: 50px; width: 80px; background-color: lime; margin-left: -6px;}
+
+.bi-house-door-fill{display: flex; align-items: flex-start; margin-top: -50px; font-size: 40px; margin-left: 15px;}
+.bi-tools{margin-top: 50px; display: block; margin-right: 5px; font-size: 40px;}
+.bi-car-front-fill{margin-top: 50px; display: block; margin-right: 5px; font-size: 40px;}
+.bi-book-fill{margin-top: 60px; display: block; margin-right: 5px; font-size: 40px;}
+.bi-bookmark-fill{margin-top: 50px; display: block; font-size: 40px;}
+
+.pc1 img{width: 200px; height: 200px; margin: -500px 0 0 300px;  align-items: flex-start; display: flex;}
+@media(max-width: 700px) {.pc1 img{width: 100px; height: 100px; margin-top: -200px; margin-left: 200px; display: flex;
+}}
+
+ .pc1 h3{margin-left: 400px;color: var(--h3-color); font-size: var(--h3-font-size);}
+
+
+
+
+.pc2 img{width: 200px; height: 200px; display: flex; margin-left: 800px; margin-top: -220px;}
+@media(max-width: 700px) {.pc2 img{width: 100px; height: 100px; margin-top: -125px; margin-left: 400px; 
+}}
+
+.pc2 h3{margin-left: 880px; color: var(--h3-color); font-size: var(--h3-font-size);}
+
+.pc3 img{width: 200px; height: 200px; margin-left: 300px; margin-top: 100px;}
+@media(max-width: 700px) {.pc3 img{width: 100px; height: 100px; margin-top: -100x; margin-left: 200px;}}
+
+.pc3 h3{margin-left: 360px; color: var(--h3-color); font-size: var(--h3-font-size);} 
+
+.pc4 img{width: 200px; height: 200px; margin-left: 800px; margin-top: -230px; display: block;}
+@media(max-width: 700px) {.pc4 img{width: 100px; height: 100px; margin-top: -125px; margin-left: 400px;}}
+
+.pc4 h3{margin-left: 860px; color: var(--h3-color); font-size: var(--h3-font-size);}
+
+.build{background-image: url(https://static.bianet.org/system/uploads/1/articles/spot_image/000/259/352/original/trees-gc35881728_1920.jpg);
+ height: 102vh; width: 100%; background-position: center; background-size: cover; flex-basis: 50%; position: fixed;}
+
+@media(max-width: 700px) {.floor button{height: 370px;}}
+
+@media(max-width: 700px) {.bi-house-door-fill{font-size: 15px; margin-left: 30px;}}
+@media(max-width: 700px) {.bi-tools{font-size: 15px;}}
+@media(max-width: 700px) {.bi-car-front-fill{font-size: 15px;}}
+@media(max-width: 700px) {.bi-book-fill{font-size: 15px;}}
+@media(max-width: 700px) {.bi-bookmark-fill{font-size: 15px;}}
+
+
+@media(max-width: 700px) {.pc1 h3{margin-left: 240px;}}
+@media(max-width: 700px) {.pc2 h3{margin-left: 430px;}}
+@media(max-width: 700px) {.pc3 h3{margin-left: 210px;}}
+@media(max-width: 700px) {.pc4 h3{margin-left: 400px;}}
+
+
+
