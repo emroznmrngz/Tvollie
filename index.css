@@ -1,0 +1,36 @@
+body{background-image: url(https://i.pinimg.com/736x/35/5c/36/355c363e67ab40b1af869b75ca083e53.jpg); width: 100%;
+height: 200vh; background-size: cover; position: fixed;}
+
+:root{--main-color: white;}
+
+*{list-style: none;}
+
+.giris .üst{display: flex; justify-content: center; align-items: center; margin-top: 300px; margin-right: 40px;
+line-height: 5;}
+
+.giris .alt{ display: flex; justify-content: center; align-items: center;}
+
+.baslık h1{display: flex; justify-content: center; color: white;}
+
+.üst input{width: 250px; height: 50px; border-radius: 30px; text-align: center; border: 1px solid black;}
+
+.alt input{width: 250px; height: 50px; border-radius: 30px; text-align: center; border: 1px solid black;}
+
+
+.title h1{margin-left: 20px; margin-top: 100px; color: red;}
+
+.log input{width: 100px; margin-top: 60px; margin-left: 20px; border-radius: 30px; width: 100px; height: 36px;}
+
+.reg{margin-top: 60px; margin-left: 30px; font-size: 18px;}
+
+.reg a{text-decoration: none; color: red;}
+
+.reg a:hover{text-decoration: underline;}
+
+.main button{margin-left: 560px; margin-top: 60px; border-radius: 20px; border: 3px solid lime;}
+.main button:hover{border: 4px solid black;}
+
+.baslık h1{color: red; font-size: 35px;}
+
+.giris{margin-top: -230px;}
+
