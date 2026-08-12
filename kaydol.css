@@ -1,0 +1,27 @@
+*{list-style: none;}
+
+body{background-image: url(https://i.pinimg.com/736x/35/5c/36/355c363e67ab40b1af869b75ca083e53.jpg); height: 200vh;
+ background-size: cover; position: fixed;   width: 100%;}
+
+.üst{display: flex; justify-content: center; align-items: center;}
+
+.alt{display: flex; justify-content: center; align-items: center;}
+
+.kaydol{margin-top: 200px; border-radius: 20px;}
+
+.kaydol input{border-radius: 20px; border: 1px solid black; height: 50px; width: 250px; border-radius: 30px;}
+
+.submit input{margin-left: 735px; width: 100px;}
+
+.alt ul li input{text-align: center;}
+.üst ul li input{text-align: center;}
+
+.enter b{ color: white; margin-left: 700px;}
+
+.enter a{text-decoration: none; color: red;}
+.enter a:hover{text-decoration: underline;}
+
+
+
+
+
