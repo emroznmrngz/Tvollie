@@ -1,0 +1,48 @@
+body{background-image: url(https://thumbs.dreamstime.com/b/stunning-coastal-sunset-ocean-rainbow-vibrant-underwater-spectrum-capturing-magic-tropical-sea-witness-breathtaking-353112011.jpg); width: 100%;
+height: 200vh; background-size: cover; position: fixed;}
+
+:root{--main-color: white; --real-color: black;}
+
+*{list-style: none;}
+
+.giris .üst{display: flex; justify-content: center; align-items: center; margin-top: 300px; margin-right: 40px;
+line-height: 5;}
+
+.giris .alt{ display: flex; justify-content: center; align-items: center;}
+
+.baslık h1{display: flex; justify-content: center; color: white;}
+
+.üst input{width: 250px; height: 50px; border-radius: 30px; text-align: center; border: 1px solid black; margin-top: -20px;
+ display: block;}
+
+.alt input{width: 250px; height: 50px; border-radius: 30px; text-align: center; border: 1px solid black;}
+
+
+.title h1{margin-left: 20px; margin-top: 100px; color: var(--real-color);}
+
+.log input{width: 100px; margin-top: 60px; margin-left: 20px; border-radius: 30px; width: 200px; height: 36px;
+background-color: purple; color: white;}
+
+.reg{margin-top: 60px; margin-left: 30px; font-size: 18px;}
+
+.reg a{text-decoration: none; color: white;}
+
+.reg a:hover{text-decoration: underline;}
+
+.main button{margin-left: 560px; margin-top: 60px; border-radius: 20px;
+ background: linear-gradient(320deg, rgb(18, 50, 164) 10%, #c1470a 100%);
+}
+
+.baslık h1{color: var(--real-color); font-size: 35px;}
+
+.giris{margin-top: -230px;}
+
+.üst label{margin-top: -200px; display: block;}
+
+.üst b{margin-top: 50px; display: inline-block; margin-right: 150px;}
+
+.alt b{margin-right: 120px;}
+
+.check input{height: 18px; margin-left: -180px;}
+
+.box{margin-top: -20px; margin-left: -57px;}
